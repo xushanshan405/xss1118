@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.WDFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的资料"
+        android:textSize="28dp"
+        android:gravity="center"></TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yuan"
+        android:layout_marginHorizontal="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/t"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="我的头像" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/im"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/yuan"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/tech" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ss"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/t"
+            android:text="我的昵称" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/t"
+            android:layout_marginRight="20dp"
+           android:layout_alignParentRight="true"
+            android:text="筱姗姗" />
+    </RelativeLayout>
+
+</LinearLayout>
